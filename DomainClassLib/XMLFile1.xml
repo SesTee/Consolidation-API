@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FTSingleCreditRequest>
+  <SessionID>000017200624162818646740707163</SessionID>
+  <NameEnquiryRef>000017200624162839000000162839</NameEnquiryRef>
+  <DestinationInstitutionCode>000017</DestinationInstitutionCode>
+  <ChannelCode>1</ChannelCode>
+  <BeneficiaryAccountName>GASTAB GLOBAL HAULAGE LIMITED</BeneficiaryAccountName>
+  <BeneficiaryAccountNumber>0122888403</BeneficiaryAccountNumber>
+  <BeneficiaryBankVerificationNumber> </BeneficiaryBankVerificationNumber>
+  <BeneficiaryKYCLevel>3</BeneficiaryKYCLevel>
+  <OriginatorAccountName>idowu.adewoye</OriginatorAccountName>
+  <OriginatorAccountNumber>135NGN10005017</OriginatorAccountNumber>
+  <OriginatorBankVerificationNumber> </OriginatorBankVerificationNumber>
+  <OriginatorKYCLevel>1</OriginatorKYCLevel>
+  <TransactionLocation> </TransactionLocation>
+  <Narration>e-BillsPay Collection</Narration>
+  <PaymentReference>eBillsPay/1593012498229</PaymentReference>
+  <Amount>118700</Amount>
+</FTSingleCreditRequest>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FTSingleCreditResponse>
+  <SessionID>000017200624162818646740707163</SessionID>
+  <NameEnquiryRef>000017200624162839000000162839</NameEnquiryRef>
+  <DestinationInstitutionCode>000017</DestinationInstitutionCode>
+  <ChannelCode>1</ChannelCode>
+  <BeneficiaryAccountName>GASTAB GLOBAL HAULAGE LIMITED</BeneficiaryAccountName>
+  <BeneficiaryAccountNumber>0122888403</BeneficiaryAccountNumber>
+  <BeneficiaryKYCLevel>1</BeneficiaryKYCLevel>
+  <BeneficiaryBankVerificationNumber>null</BeneficiaryBankVerificationNumber>
+  <OriginatorAccountName>idowu.adewoye</OriginatorAccountName>
+  <OriginatorAccountNumber>135NGN10005017</OriginatorAccountNumber>
+  <OriginatorBankVerificationNumber></OriginatorBankVerificationNumber>
+  <OriginatorKYCLevel>1</OriginatorKYCLevel>
+  <TransactionLocation></TransactionLocation>
+  <Narration>e-BillsPay Collection</Narration>
+  <PaymentReference>eBillsPay/1593012498229</PaymentReference>
+  <Amount>118700</Amount>
+  <ResponseCode>00</ResponseCode>
+</FTSingleCreditResponse>

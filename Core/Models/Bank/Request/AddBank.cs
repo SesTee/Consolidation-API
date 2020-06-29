@@ -1,0 +1,14 @@
+﻿namespace CoreLib.Models.Bank.Request
+{
+    public class AddBank: BaseRequest
+    {
+        public string logo { get; set; }
+        public string bank_code { get; set; }
+        public string bank_name { get; set; }
+        public string bank_address { get; set; }
+        public string bank_contact_name { get; set; }
+        public string bank_contact_phone { get; set; }
+        public string bank_contact_email { get; set; }
+
+    }
+}
