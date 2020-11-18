@@ -1,8 +1,12 @@
 ﻿using CommonLib;
+
 using CoreLib.Interfaces;
+
 using DomainClassLib.Data.Contexts;
+
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+
 using System;
 using System.Linq;
 using System.Threading.Tasks;
@@ -136,7 +140,7 @@ namespace CoreLib.Services
                 var result1 = await _context.TokenTbl.AddAsync(new DomainClassLib.Data.Entities.AppPerm.TokenTbl { Refresh = refreshtoken, Token = token, DateCreated = DateTime.Now });
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
@@ -150,7 +154,7 @@ namespace CoreLib.Services
                 var result2 = _context.TokenTbl.Remove(result1);
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
